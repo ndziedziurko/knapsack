@@ -31,7 +31,7 @@ public class Main {
 
         long startTime = System.currentTimeMillis();
 
-        FileReader read = new FileReader(new File("6"));
+        FileReader read = new FileReader(new File("test.txt"));
         BufferedReader buff = new BufferedReader(read);
 
         String line = buff.readLine();
